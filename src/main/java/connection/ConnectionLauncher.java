@@ -16,7 +16,7 @@ public class ConnectionLauncher {
 	public static void main(String[] args) throws SQLException {
 		
 		Connection connection = ConnectionFactory.getConnectionFactory("localhost", 5432, "postgres", "cuttlefern").getConnection("postgres", "bondstone");
-	
+		
 		executeQueries(connection);
 		
 	}

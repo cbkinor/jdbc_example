@@ -19,7 +19,7 @@ public class ConnectionFactory {
 
 	private static final String DRIVER_NAME = "org.postgresql.Driver";
 	private final static int VALIDATION_TIMEOUT = 3000;
-	private final static int MAX_CACHED_FACTORIES = 1;
+	private final static int MAX_CACHED_FACTORIES = 10;
 	
 	private final String host;
 	private final Integer port;
